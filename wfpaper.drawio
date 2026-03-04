@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" version="29.6.0">
+  <diagram name="Page-1" id="pyE0CLivxdcwH7pzbixE">
+    <mxGraphModel dx="1426" dy="1582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gbBxgJFXaHMaca9rJOJb-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Raw Images" vertex="1">
+          <mxGeometry height="40" width="120" x="190" y="-620" as="geometry" />
+        </mxCell>
+        <mxCell id="oGANV4RMe413-Dw2tTk0-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="320" width="220" x="150" y="-710" as="geometry" />
+        </mxCell>
+        <mxCell id="oGANV4RMe413-Dw2tTk0-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Image enhancement&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="190" x="155" y="-690" as="geometry" />
+        </mxCell>
+        <mxCell id="oGANV4RMe413-Dw2tTk0-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;Clahe&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="190" y="-520" as="geometry" />
+        </mxCell>
+        <mxCell id="oGANV4RMe413-Dw2tTk0-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;Histogram Equalization &lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="120" x="190" y="-455" as="geometry" />
+        </mxCell>
+        <mxCell id="oGANV4RMe413-Dw2tTk0-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Gaussian" vertex="1">
+          <mxGeometry height="40" width="120" x="190" y="-570" as="geometry" />
+        </mxCell>
+        <mxCell id="oGANV4RMe413-Dw2tTk0-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;Image preparation for U-Net ✅&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;u-net/data/&lt;/div&gt;&lt;div&gt;to_tif_a.ipynb&lt;br&gt;&lt;/div&gt;&lt;div&gt;cut_photos_b.ipynb&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="110" x="660.88" y="-680" as="geometry" />
+        </mxCell>
+        <mxCell id="oGANV4RMe413-Dw2tTk0-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="U-Net Modules" vertex="1">
+          <mxGeometry height="40" width="110" x="790.88" y="-730" as="geometry" />
+        </mxCell>
+        <mxCell id="oGANV4RMe413-Dw2tTk0-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Data augmentation" vertex="1">
+          <mxGeometry height="40" width="120" x="780.88" y="-670" as="geometry" />
+        </mxCell>
+        <mxCell id="oGANV4RMe413-Dw2tTk0-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="U-Net&amp;nbsp; " vertex="1">
+          <mxGeometry height="40" width="120" x="780.88" y="-610" as="geometry" />
+        </mxCell>
+        <mxCell id="oGANV4RMe413-Dw2tTk0-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Metric in weigt and biass " vertex="1">
+          <mxGeometry height="40" width="120" x="780.88" y="-510" as="geometry" />
+        </mxCell>
+        <mxCell id="oGANV4RMe413-Dw2tTk0-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;Hyperparametrizacion&lt;/div&gt;&lt;div&gt;Optuna&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="780.88" y="-460" as="geometry" />
+        </mxCell>
+        <mxCell id="oGANV4RMe413-Dw2tTk0-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;Image Tagging&lt;/div&gt;&lt;div&gt;workflow &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="120" x="400" y="-700" as="geometry" />
+        </mxCell>
+        <mxCell id="oGANV4RMe413-Dw2tTk0-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="910.88" y="-710" as="sourcePoint" />
+            <mxPoint x="940.88" y="-710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGANV4RMe413-Dw2tTk0-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Model Inference ❌ " vertex="1">
+          <mxGeometry height="40" width="120" x="940.88" y="-730" as="geometry" />
+        </mxCell>
+        <mxCell id="oGANV4RMe413-Dw2tTk0-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="3D georeference ❌ " vertex="1">
+          <mxGeometry height="40" width="120" x="940.88" y="-670" as="geometry" />
+        </mxCell>
+        <mxCell id="oGANV4RMe413-Dw2tTk0-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Save geojson to sql ❌ " vertex="1">
+          <mxGeometry height="40" width="120" x="940.88" y="-610" as="geometry" />
+        </mxCell>
+        <mxCell id="oGANV4RMe413-Dw2tTk0-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Exploit sql capabilities ❌ " vertex="1">
+          <mxGeometry height="40" width="120" x="940.88" y="-550" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
